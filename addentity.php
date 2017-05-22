@@ -11,7 +11,7 @@
  * Information
  * ===========
  *
- * Anwendung im Content:
+ * Usage in Content:
  *   {addentity character}
  *
  */
@@ -39,7 +39,7 @@ class plgContentAddentity extends JPlugin {
 
 	/**
 	* Contentstring Definition
-	* String erkennen und mit neuem Inhalt füllen
+	* Scan for module string 'addentity' and call replace method
 	*/
 	public function onContentPrepare($context, &$article, &$params, $page) {
 		$regex = '/{addentity\s*(.*?)\s*}/i';
@@ -48,7 +48,7 @@ class plgContentAddentity extends JPlugin {
 	}
 
     /**
-    * IFrame mit Parametern generieren
+    * Method to replace the matching strings
     */
 	public function getcontent($matches) {
 		
