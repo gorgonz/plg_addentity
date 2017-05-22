@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+	<name>PLG_CONTENT_ADDENTITY</name>
+	<author>Peter Möller</author>
+	<creationDate>26.Sept.2016</creationDate>
+	<copyright>Copyright (C) 2016 Peter Möller. All rights reserved</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<authorEmail>new.peter.moeller@web.de</authorEmail>
+	<version>3.0.0</version>
+	<description><![CDATA[PLG_CONTENT_ADDENTITY_XML_DESCRIPTION]]></description>
+	<files>
+		<filename plugin="addentity">addentity.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages folder="language">
+		<language tag="de-DE">de-DE/de-DE.plg_content_addentity.ini</language>
+		<language tag="de-DE">de-DE/de-DE.plg_content_addentity.sys.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_addentity.ini</language>
+		<language tag="en-GB">en-GB/en-GB.plg_content_addentity.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+		</fields>
+	</config>
+</extension>
