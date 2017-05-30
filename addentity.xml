@@ -2,8 +2,8 @@
 <extension version="3.1" type="plugin" group="content" method="upgrade">
 	<name>PLG_CONTENT_ADDENTITY</name>
 	<author>Peter Möller</author>
-	<creationDate>23.Mai 2017</creationDate>
-	<copyright>Copyright (C) 2016 Peter Möller. All rights reserved</copyright>
+	<creationDate>30.Mai 2017</creationDate>
+	<copyright>Copyright (C) 2017 Peter Möller. All rights reserved</copyright>
 	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 	<authorEmail>new.peter.moeller@web.de</authorEmail>
 	<version>3.0.1</version>
