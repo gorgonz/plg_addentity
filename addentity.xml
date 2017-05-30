@@ -6,11 +6,10 @@
 	<copyright>Copyright (C) 2016 Peter Möller. All rights reserved</copyright>
 	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
 	<authorEmail>new.peter.moeller@web.de</authorEmail>
-	<version>3.0.0</version>
+	<version>3.0.1</version>
 	<description><![CDATA[PLG_CONTENT_ADDENTITY_XML_DESCRIPTION]]></description>
 	<files>
 		<filename plugin="addentity">addentity.php</filename>
-		<filename>index.html</filename>
 	</files>
 	<languages folder="language">
 		<language tag="de-DE">de-DE/de-DE.plg_content_addentity.ini</language>
