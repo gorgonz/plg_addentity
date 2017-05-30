@@ -18,6 +18,11 @@
 		<language tag="en-GB">en-GB/en-GB.plg_content_addentity.ini</language>
 		<language tag="en-GB">en-GB/en-GB.plg_content_addentity.sys.ini</language>
 	</languages>
+    	<updateservers>
+        	<server type="extension" priority="1" name="AddEntity Plugin Updates">
+            		<![CDATA[http://we-like-joomla.de/update/plg_addentity-updates.xml]]>
+        	</server>
+   	 </updateservers>
 	<config>
 		<fields name="params">
 		</fields>
