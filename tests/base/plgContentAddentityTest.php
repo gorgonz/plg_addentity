@@ -12,8 +12,13 @@ use PHPUnit\Framework\TestCase;
 class plgContentAddentityTest extends PHPUnit_Framework_TestCase
 {
 
-    public function MockTest()
+    public function MockTestEqual()
     {
-        $this->assertEquals (1, 1);
+        $this->assertEquals (1, 1, 'Equal-Test');
+    }
+
+    public function MockTestSame()
+    {
+        $this->assertSame (1, 1, 'Same-Test');
     }
 }
