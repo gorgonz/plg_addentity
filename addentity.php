@@ -1,6 +1,6 @@
 <?php
 /**
- * plugin addentity
+ * plugin addentity 
  * @version 3.0.0
  * @package addentity
  * @copyright Copyright (C) 2016 Peter Möller
