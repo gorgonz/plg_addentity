@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
  * @subpackage  Plugins
  * @since       3.6.2
  */
-class plgContentAddentityTest extends TestCase
+class plgContentAddentityTest extends PHPUnit_Framework_TestCase
 {
 
     public function MockTest()
