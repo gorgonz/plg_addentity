@@ -1,7 +1,4 @@
-# disable xdebug, until we have phpunit 
-before_script:
-  - phpenv config-rm xdebug.ini
-  
+
 language: php
 php:
   - '5.6'
