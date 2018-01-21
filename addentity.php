@@ -1,5 +1,5 @@
 <?php
-/**
+/** 
  * plugin addentity
  * @version 3.0.0
  * @package addentity
